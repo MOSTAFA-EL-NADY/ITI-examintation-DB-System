@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Courses] (
-  [curs_num] [int] NOT NULL,
+  [curs_id] [int] NOT NULL,
   [curs_name] [varchar](50) NULL,
-  [hours] [int] NULL,
-  CONSTRAINT [PK_Courses] PRIMARY KEY CLUSTERED ([curs_num])
+  [duration] [int] NULL,
+  CONSTRAINT [PK_Courses] PRIMARY KEY CLUSTERED ([curs_id])
 )
 ON [PRIMARY]
 GO

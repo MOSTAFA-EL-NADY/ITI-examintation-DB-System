@@ -4,10 +4,16 @@
   [lname] [varchar](20) NULL,
   [email] [varchar](100) NOT NULL,
   [city] [varchar](50) NULL,
-  [governorate] [varchar](50) NULL,
-  [address] [nchar](10) NULL,
+  [street] [varchar](50) NULL,
+  [zip_code] [nchar](10) NULL,
   [phone] [int] NOT NULL,
+  [date_birth] [date] NULL,
+  [dept_id] [int] NOT NULL,
   CONSTRAINT [PK_Students] PRIMARY KEY CLUSTERED ([st_id])
 )
 ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Students]
+  ADD CONSTRAINT [FK_Students_Departments] FOREIGN KEY ([dept_id]) REFERENCES [dbo].[Departments] ([dep_id])
 GO
