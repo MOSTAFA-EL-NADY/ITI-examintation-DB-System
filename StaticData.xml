@@ -4,10 +4,15 @@
   <StaticDataLinks>
     <StaticDataLink>dbo.Courses</StaticDataLink>
     <StaticDataLink>dbo.Departments</StaticDataLink>
+    <StaticDataLink>dbo.Exam_questions</StaticDataLink>
     <StaticDataLink>dbo.Exams</StaticDataLink>
     <StaticDataLink>dbo.Instructors</StaticDataLink>
     <StaticDataLink>dbo.Questions</StaticDataLink>
+    <StaticDataLink>dbo.Student_Answer_Exam</StaticDataLink>
+    <StaticDataLink>dbo.Student_Courses</StaticDataLink>
+    <StaticDataLink>dbo.Student_Exam</StaticDataLink>
     <StaticDataLink>dbo.Students</StaticDataLink>
+    <StaticDataLink>dbo.sysdiagrams</StaticDataLink>
     <StaticDataLink>dbo.Topics</StaticDataLink>
   </StaticDataLinks>
 </StaticDataList>

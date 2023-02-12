@@ -1,7 +1,8 @@
 ﻿CREATE TABLE [dbo].[Instructors_Couses] (
   [ins_id] [int] NOT NULL,
-  [curs_id] [int] NULL,
-  [evaluation] [char](10) NULL
+  [curs_id] [int] NOT NULL,
+  [evaluation] [char](10) NULL,
+  CONSTRAINT [PK_Instructors_Couses] PRIMARY KEY CLUSTERED ([ins_id], [curs_id])
 )
 ON [PRIMARY]
 GO
