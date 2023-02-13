@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Departments] (
-  [dep_id] [int] NOT NULL,
+  [dep_id] [int] IDENTITY,
   [dep_name] [varchar](50) NULL,
-  [dep_mgr] [int] NOT NULL,
+  [dep_mgr] [int] NULL,
   CONSTRAINT [PK_Departments] PRIMARY KEY CLUSTERED ([dep_id])
 )
 ON [PRIMARY]
