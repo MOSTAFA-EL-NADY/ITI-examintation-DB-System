@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Instructors] (
-  [ins_id] [int] NOT NULL,
+  [ins_id] [int] IDENTITY,
   [fname] [varchar](50) NULL,
   [lname] [varchar](50) NULL,
   [email] [varchar](100) NOT NULL,

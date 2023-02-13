@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Exams] (
-  [ex_id] [int] NOT NULL,
+  [ex_id] [int] IDENTITY,
   [ex_model] [int] NULL,
   [curs_id] [int] NULL,
   [duration] [float] NULL,

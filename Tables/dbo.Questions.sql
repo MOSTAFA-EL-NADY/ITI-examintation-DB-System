@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Questions] (
-  [ques_id] [int] NOT NULL,
+  [ques_id] [int] IDENTITY,
   [ques_content] [text] NOT NULL,
   [ques_type] [varchar](50) NOT NULL,
   [correct_answer] [varchar](50) NOT NULL,

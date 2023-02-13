@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Topics] (
-  [topic_id] [int] NOT NULL,
+  [topic_id] [int] IDENTITY,
   [topic_name] [varchar](50) NULL,
   [curs_id] [int] NULL,
   CONSTRAINT [PK_Topics] PRIMARY KEY CLUSTERED ([topic_id])
