@@ -8,7 +8,7 @@
   [zip_code] [nchar](10) NULL,
   [phone] [int] NOT NULL,
   [date_birth] [date] NULL,
-  [dept_id] [int] NOT NULL,
+  [dept_id] [int] NULL,
   CONSTRAINT [PK_Students] PRIMARY KEY CLUSTERED ([st_id]),
   CONSTRAINT [c1] UNIQUE ([email], [phone])
 )
