@@ -9,7 +9,8 @@
   [phone] [int] NOT NULL,
   [date_birth] [date] NULL,
   [dept_id] [int] NOT NULL,
-  CONSTRAINT [PK_Students] PRIMARY KEY CLUSTERED ([st_id])
+  CONSTRAINT [PK_Students] PRIMARY KEY CLUSTERED ([st_id]),
+  CONSTRAINT [c1] UNIQUE ([email], [phone])
 )
 ON [PRIMARY]
 GO

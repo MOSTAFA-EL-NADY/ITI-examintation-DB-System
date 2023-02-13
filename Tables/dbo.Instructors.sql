@@ -10,7 +10,8 @@
   [date_birth] [date] NULL,
   [salary] [money] NULL,
   [dep_id] [int] NULL,
-  CONSTRAINT [PK_Instructors] PRIMARY KEY CLUSTERED ([ins_id])
+  CONSTRAINT [PK_Instructors] PRIMARY KEY CLUSTERED ([ins_id]),
+  CONSTRAINT [c2] UNIQUE ([email], [phone])
 )
 ON [PRIMARY]
 GO

@@ -8,3 +8,6 @@
 ON [PRIMARY]
 TEXTIMAGE_ON [PRIMARY]
 GO
+
+EXEC sp_bindrule @rulename = N'dbo.r1', @objname = N'dbo.Questions.ques_type'
+GO

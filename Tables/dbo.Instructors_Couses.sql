@@ -1,10 +1,13 @@
 ﻿CREATE TABLE [dbo].[Instructors_Couses] (
   [ins_id] [int] NOT NULL,
   [curs_id] [int] NOT NULL,
-  [evaluation] [char](10) NULL,
+  [evaluation] [varchar](50) NULL,
   CONSTRAINT [PK_Instructors_Couses] PRIMARY KEY CLUSTERED ([ins_id], [curs_id])
 )
 ON [PRIMARY]
+GO
+
+EXEC sp_bindrule @rulename = N'dbo.instructors_evaluation', @objname = N'dbo.Instructors_Couses.evaluation'
 GO
 
 ALTER TABLE [dbo].[Instructors_Couses]
