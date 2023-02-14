@@ -5,7 +5,7 @@
   [email] [varchar](100) NOT NULL,
   [city] [varchar](50) NULL,
   [street] [varchar](50) NULL,
-  [zip_code] [nchar](10) NULL,
+  [zip_code] [int] NULL,
   [phone] [int] NOT NULL,
   [date_birth] [date] NULL,
   [dept_id] [int] NULL,

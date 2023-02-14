@@ -10,8 +10,7 @@ INSERT dbo.Departments(dep_id, dep_name, dep_mgr) VALUES (7, 'PD', NULL);
 INSERT dbo.Departments(dep_id, dep_name, dep_mgr) VALUES (8, 'OS', NULL);
 INSERT dbo.Departments(dep_id, dep_name, dep_mgr) VALUES (9, 'AI', NULL);
 INSERT dbo.Departments(dep_id, dep_name, dep_mgr) VALUES (10, 'BI', NULL);
-INSERT dbo.Departments(dep_id, dep_name, dep_mgr) VALUES (11, 'UI', NULL);
-INSERT dbo.Departments(dep_id, dep_name, dep_mgr) VALUES (12, 'UX', NULL);
+
 GO
 SET IDENTITY_INSERT dbo.Departments OFF
 GO
