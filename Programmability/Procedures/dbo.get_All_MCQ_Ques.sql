@@ -1,0 +1,6 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[get_All_MCQ_Ques]
+AS
+	SELECT * FROM Mcq_questions mq
+GO

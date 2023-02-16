@@ -19,7 +19,6 @@ INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, d
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (17, 'essam', 'ibrahim', 'autumndixon@enjola.com', 'minya', 'toshka', 12345, 1739923, '2019-03-31', 10);
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (18, 'saad', 'aly', 'tracicompton@medcom.com', 'sohag', 'elmadrasa st', 12345, 2158235, '2016-06-14', 8);
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (19, 'sara', 'ibrahim', 'sparksriley@insuresys.com', 'tanta', 'tes3een', 12345, 1737780, '2017-06-27', 4);
-INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (20, 'abdullah', 'ibrahim', 'tillmansolis@hyplex.com', 'mit Ghamr', 'elsha3bia', 12345, 867925, '2021-03-18', 8);
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (21, 'ahmed', 'essam', 'bookervillarreal@mazuda.com', 'mit Ghamr', 'elmadrasa st', 12345, 2018096, '2017-11-10', 3);
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (22, 'ayman', 'abdulrahman', 'twilamunoz@cinesanct.com', 'tanta', 'tes3een', 12345, 963592, '2018-01-31', 7);
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (23, 'omnia', 'islam', 'holliecraig@isoplex.com', 'alex', 'elshaheed', 12345, 2252345, '2014-09-01', 1);
@@ -140,6 +139,12 @@ INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, d
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (138, 'saad', 'abdulrahman', 'cecilerobles@orbalix.com', 'cairo', 'saad zaghlool', 12345, 1255099, '2016-03-12', 9);
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (139, 'hussien', 'ayman', 'cheriemedina@maximind.com', 'mehalla', 'nozha', 12345, 2024079, '2022-02-01', 9);
 INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (140, 'ibrahim', 'ibrahim', 'gallaghercompton@recritube.com', 'assyuit', 'nozha', 12345, 968707, '2017-12-12', 6);
+GO
+SET IDENTITY_INSERT dbo.Students OFF
+GO
+SET IDENTITY_INSERT dbo.Students ON
+GO
+INSERT dbo.Students(st_id, fname, lname, email, city, street, zip_code, phone, date_birth, dept_id) VALUES (141, 'aly', 'mohsen', 'ali@gmail.com', 'azagazig', 'kawmia', 55, 1113200095, '1996-06-15', 1);
 GO
 SET IDENTITY_INSERT dbo.Students OFF
 GO
