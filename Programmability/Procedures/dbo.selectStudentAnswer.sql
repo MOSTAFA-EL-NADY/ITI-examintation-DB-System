@@ -1,0 +1,11 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[selectStudentAnswer]
+AS
+BEGIN TRY
+SELECT  * FROM  Student_Answer_Exam 
+END TRY
+BEGIN CATCH
+ SELECT 'ERROR! in Selection Operation'
+END CATCH
+GO

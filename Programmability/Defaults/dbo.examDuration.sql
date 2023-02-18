@@ -1,0 +1,4 @@
+﻿SET QUOTED_IDENTIFIER OFF
+GO
+CREATE DEFAULT [dbo].[examDuration] AS 30
+GO
