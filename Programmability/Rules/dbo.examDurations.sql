@@ -1,0 +1,5 @@
+﻿SET QUOTED_IDENTIFIER OFF
+GO
+CREATE RULE [dbo].[examDurations] AS 
+@x BETWEEN 30 AND 120
+GO

@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Student_Exam] (
   [std_id] [int] NOT NULL,
   [ex_id] [int] NOT NULL,
-  [grade] [int] NULL,
+  [grade] [int] NOT NULL,
   CONSTRAINT [PK_Student_Exam] PRIMARY KEY CLUSTERED ([std_id], [ex_id])
 )
 ON [PRIMARY]

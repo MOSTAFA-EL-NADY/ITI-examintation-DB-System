@@ -28,7 +28,13 @@ IF @stQAnswer= (SELECT  q.correct_answer FROM Questions q WHERE q.ques_id =@qid)
  DEALLOCATE studentAnswers
  END
  SELECT @grade
+ BEGIN TRY 
+
   INSERT INTO Student_Exam  VALUES(@studentId,@examId,@grade)
+  END TRY
+  BEGIN CATCH
+  SELECT 'error while adding  the exam to this student'
+  END CATCH
   END
   ELSE
   SELECT 'the student id or exam id has a problem'
