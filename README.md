@@ -8,3 +8,18 @@
 - [@Ahmed Hassan](https://github.com/hassan9810)
 - [@Abdallah Magdy](https://github.com/Zaazou)
 - [@Alaa El-Shahat](https://github.com/AlaaElshahat)
+
+## Dependences:
+
+- MS SQL Server.
+- dbforge.
+- Report Builder.
+- Microsoft Power BI.
+
+## How to clone project to your local machine
+
+Clone GitHub repository to your local machine:
+
+git clone https://github.com/MOSTAFA-EL-NADY/ITI-examintation-DB-System
+
+
