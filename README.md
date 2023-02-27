@@ -25,6 +25,9 @@ git clone https://github.com/MOSTAFA-EL-NADY/ITI-examintation-DB-System
 ## Entity Relationship Diagram
 ![ERD](https://github.com/MOSTAFA-EL-NADY/ITI-examintation-DB-System/blob/main/ERD/ERD.png)
 
+## Database Schema
+![schema](https://github.com/MOSTAFA-EL-NADY/ITI-examintation-DB-System/blob/main/Database%20Diagram/Diagram.png)
+
 ## Features
 - Select ,Insert update and delete in any table
 - Exam generation
