@@ -3,7 +3,8 @@ GO
 CREATE PROCEDURE [dbo].[insertDepartment] @dep_name VARCHAR(50),@dep_mgr INT=NULL
 AS
 BEGIN TRY
- INSERT INTO Departments VALUES(@dep_name,@dep_mgr)
+ SELECT 'Department is added successfully^_^'
+ INSERT INTO Departments VALUES(@dep_name,@dep_mgr) 
 END TRY
 BEGIN CATCH
   SELECT 'Cant insert new department'
