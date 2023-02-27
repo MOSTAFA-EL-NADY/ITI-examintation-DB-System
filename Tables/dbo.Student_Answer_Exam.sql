@@ -13,7 +13,7 @@ ALTER TABLE [dbo].[Student_Answer_Exam]
 GO
 
 ALTER TABLE [dbo].[Student_Answer_Exam]
-  ADD CONSTRAINT [FK_Student_Answer_Exam_Questions] FOREIGN KEY ([ques_id]) REFERENCES [dbo].[Questions] ([ques_id])
+  ADD CONSTRAINT [FK_Student_Answer_Exam_Questions] FOREIGN KEY ([ques_id]) REFERENCES [dbo].[Questions] ([ques_id]) ON DELETE CASCADE ON UPDATE CASCADE
 GO
 
 ALTER TABLE [dbo].[Student_Answer_Exam]

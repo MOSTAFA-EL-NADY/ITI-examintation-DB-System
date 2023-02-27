@@ -10,6 +10,6 @@ ON [PRIMARY]
 TEXTIMAGE_ON [PRIMARY]
 GO
 
-ALTER TABLE [dbo].[Mcq_questions]
-  ADD CONSTRAINT [FK_Mcq_questions_Questions] FOREIGN KEY ([ques_id]) REFERENCES [dbo].[Questions] ([ques_id])
+ALTER TABLE [dbo].[Mcq_questions] WITH NOCHECK
+  ADD CONSTRAINT [FK_Mcq_questions_Questions] FOREIGN KEY ([ques_id]) REFERENCES [dbo].[Questions] ([ques_id]) ON DELETE CASCADE ON UPDATE CASCADE
 GO

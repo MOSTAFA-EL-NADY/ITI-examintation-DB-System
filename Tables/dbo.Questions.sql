@@ -13,6 +13,6 @@ GO
 EXEC sp_bindrule @rulename = N'dbo.r1', @objname = N'dbo.Questions.ques_type'
 GO
 
-ALTER TABLE [dbo].[Questions]
-  ADD CONSTRAINT [FK_Questions_Courses] FOREIGN KEY ([curs_id]) REFERENCES [dbo].[Courses] ([curs_id])
+ALTER TABLE [dbo].[Questions] WITH NOCHECK
+  ADD CONSTRAINT [FK_Questions_Courses] FOREIGN KEY ([curs_id]) REFERENCES [dbo].[Courses] ([curs_id]) ON DELETE CASCADE ON UPDATE CASCADE
 GO

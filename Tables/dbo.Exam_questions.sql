@@ -11,5 +11,5 @@ ALTER TABLE [dbo].[Exam_questions]
 GO
 
 ALTER TABLE [dbo].[Exam_questions]
-  ADD CONSTRAINT [FK_Exam_questions_Questions] FOREIGN KEY ([ques_id]) REFERENCES [dbo].[Questions] ([ques_id])
+  ADD CONSTRAINT [FK_Exam_questions_Questions] FOREIGN KEY ([ques_id]) REFERENCES [dbo].[Questions] ([ques_id]) ON DELETE CASCADE ON UPDATE CASCADE
 GO
