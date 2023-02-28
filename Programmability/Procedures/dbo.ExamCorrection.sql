@@ -21,7 +21,7 @@ WHILE @@fetch_status =0
 BEGIN 
 
 IF @stQAnswer= (SELECT  q.correct_answer FROM Questions q WHERE q.ques_id =@qid)
- SET @grade =@grade+2
+ SET @grade =@grade+20
  FETCH studentAnswers INTO @qid ,@stQAnswer
  END 
  CLOSE studentAnswers

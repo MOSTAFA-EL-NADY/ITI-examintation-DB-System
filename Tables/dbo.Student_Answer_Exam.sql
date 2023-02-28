@@ -3,7 +3,8 @@
   [ex_id] [int] NOT NULL,
   [ques_id] [int] NOT NULL,
   [std_answer] [varchar](50) NULL,
-  CONSTRAINT [PK_Student_Answer_Exam] PRIMARY KEY CLUSTERED ([std_id], [ex_id], [ques_id])
+  CONSTRAINT [PK_Student_Answer_Exam] PRIMARY KEY CLUSTERED ([std_id], [ex_id], [ques_id]),
+  CONSTRAINT [student_answer] CHECK ([std_answer]='D' OR [std_answer]='C' OR [std_answer]='B' OR [std_answer]='A')
 )
 ON [PRIMARY]
 GO
