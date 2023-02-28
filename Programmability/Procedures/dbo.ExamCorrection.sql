@@ -5,7 +5,7 @@ AS
 IF EXISTS (SELECT sae.ques_id, sae.std_answer FROM Student_Answer_Exam sae WHERE sae.std_id=@studentId AND sae.ex_id=@examId
 )
 BEGIN
-DECLARE @grade INT =0
+DECLARE @grade FLOAT =0
 DECLARE studentAnswers CURSOR
 FOR 
 
@@ -21,7 +21,7 @@ WHILE @@fetch_status =0
 BEGIN 
 
 IF @stQAnswer= (SELECT  q.correct_answer FROM Questions q WHERE q.ques_id =@qid)
- SET @grade =@grade+20
+ SET @grade =@grade+10
  FETCH studentAnswers INTO @qid ,@stQAnswer
  END 
  CLOSE studentAnswers
@@ -34,6 +34,12 @@ IF @stQAnswer= (SELECT  q.correct_answer FROM Questions q WHERE q.ques_id =@qid)
   END TRY
   BEGIN CATCH
   SELECT 'error while adding  the exam to this student'
+  END CATCH
+  BEGIN TRY 
+  UPDATE Student_Courses SET grade =@grade WHERE std_id=@studentId AND curs_id=(SELECT e.curs_id FROM Exams e WHERE e.ex_id=@examId)
+  END TRY
+  BEGIN CATCH 
+  SELECT 'canot add grade to student sources'
   END CATCH
   END
   ELSE

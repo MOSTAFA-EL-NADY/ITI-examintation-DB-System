@@ -18,3 +18,14 @@ INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (12, 679);
 INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (12, 712);
 INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (12, 745);
 INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (12, 1000);
+
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 294);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 305);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 320);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 323);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 332);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 500);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 731);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 764);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 797);
+INSERT dbo.Exam_questions(ex_id, ques_id) VALUES (13, 863);

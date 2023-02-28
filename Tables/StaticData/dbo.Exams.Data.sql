@@ -15,3 +15,9 @@ INSERT dbo.Exams(ex_id, ex_model, curs_id, duration) VALUES (12, 1, 5, 30);
 GO
 SET IDENTITY_INSERT dbo.Exams OFF
 GO
+SET IDENTITY_INSERT dbo.Exams ON
+GO
+INSERT dbo.Exams(ex_id, ex_model, curs_id, duration) VALUES (13, 1, 21, 30);
+GO
+SET IDENTITY_INSERT dbo.Exams OFF
+GO
