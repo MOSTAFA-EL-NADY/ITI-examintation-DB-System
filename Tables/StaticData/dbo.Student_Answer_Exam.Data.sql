@@ -1,0 +1,10 @@
+﻿INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 128, 'A');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 178, 'B');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 339, 'C');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 394, 'C');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 405, 'C');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 561, 'C');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 594, 'C');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 660, 'C');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 792, 'A');
+INSERT dbo.Student_Answer_Exam(std_id, ex_id, ques_id, std_answer) VALUES (5, 11, 825, 'D');

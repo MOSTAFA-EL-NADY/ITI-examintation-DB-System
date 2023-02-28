@@ -1,5 +1,20 @@
 <?xml version="1.0"?>
 <StaticDataList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Version>2</Version>
-  <StaticDataLinks />
+  <StaticDataLinks>
+    <StaticDataLink>dbo.Courses</StaticDataLink>
+    <StaticDataLink>dbo.Departments</StaticDataLink>
+    <StaticDataLink>dbo.Exam_questions</StaticDataLink>
+    <StaticDataLink>dbo.Exams</StaticDataLink>
+    <StaticDataLink>dbo.Instructors</StaticDataLink>
+    <StaticDataLink>dbo.Instructors_Courses</StaticDataLink>
+    <StaticDataLink>dbo.Mcq_questions</StaticDataLink>
+    <StaticDataLink>dbo.Questions</StaticDataLink>
+    <StaticDataLink>dbo.Student_Answer_Exam</StaticDataLink>
+    <StaticDataLink>dbo.Student_Courses</StaticDataLink>
+    <StaticDataLink>dbo.Student_Exam</StaticDataLink>
+    <StaticDataLink>dbo.Students</StaticDataLink>
+    <StaticDataLink>dbo.sysdiagrams</StaticDataLink>
+    <StaticDataLink>dbo.Topics</StaticDataLink>
+  </StaticDataLinks>
 </StaticDataList>
